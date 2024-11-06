@@ -1,0 +1,9 @@
+﻿  atm_machine2.cpp
+atm_machine2.obj : error LNK2005: "void __cdecl createAccount(void)" (?createAccount@@YAXXZ) already defined in atm_machine.obj
+atm_machine2.obj : error LNK2005: "void __cdecl login(void)" (?login@@YAXXZ) already defined in atm_machine.obj
+atm_machine2.obj : error LNK2005: "void __cdecl printIntroMenu(void)" (?printIntroMenu@@YAXXZ) already defined in atm_machine.obj
+atm_machine2.obj : error LNK2005: "void __cdecl start(void)" (?start@@YAXXZ) already defined in atm_machine.obj
+atm_machine2.obj : error LNK2005: main already defined in atm_machine.obj
+atm_machine2.obj : error LNK2005: "char menuInput" (?menuInput@@3DA) already defined in atm_machine.obj
+atm_machine2.obj : error LNK2005: "class std::unordered_map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::hash<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,struct std::equal_to<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > accounts" (?accounts@@3V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@A) already defined in atm_machine.obj
+C:\Users\emmam\Desktop\C++\Assignment3\atm_machine\x64\Debug\atm_machine.exe : fatal error LNK1169: one or more multiply defined symbols found
